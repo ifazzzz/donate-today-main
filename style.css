@@ -5,22 +5,22 @@
     text-decoration: none;
 }
 
+p{
+    font-size: 18px;
+}
+  /* head section */
 .header{
     width: 100%;
     height: 669px;
     background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),url(images/donation5.jpg);           
     background-size:cover;
-    background-position:relative;      
+    background-position:absolute;      
 }
 
 .text-box{
     color: #fff;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding-top:180px;
     text-align: center;
-    padding-bottom: 30px;
 }
 
 .text-box h1{
@@ -35,7 +35,7 @@
     padding: 16px 20px;
     border-radius: 5px;
 }
-
+   /* amount section */
 .amount-section{
     margin-top: 120px;
 }
@@ -72,12 +72,12 @@
 }
 
 .red-one{
-    border: 2px solid tomato;
-    background-color: rgb(248, 215, 208);
+    border: 2px solid rgb(247, 119, 96);
+    background-color: rgb(252, 231, 227);
 }
 
 .red-one a{
-    color: tomato;
+    color: rgb(247, 119, 96);
 }
 
 .enter-amount {
@@ -98,12 +98,11 @@
     text-align: center;
     margin-top: 130px;
  }
-
+    /* service section */
  .services{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 1108px;
+    justify-content: center;   
     height: 352px;
     margin: 100px auto;
  }
@@ -127,3 +126,81 @@
 
  .service-item-education{
     background-color:  #f8f2d4;
+ }
+ /* contribution section */
+ .contribute-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+
+ }
+
+ .affected-people{
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+ }
+
+ .contribute-details{
+    margin: 20px;
+ }
+
+ .donation{
+   margin: 20px;   
+ }
+
+ .contribute-details h1{
+    font-size:50px;
+ }
+ /* subscription section */
+ .wrapper{
+    display: flex;
+    align-items: center;   
+    width: 800px;
+    height: 180px;
+    margin: 40px auto;
+    background-color: #FFF4D6;
+ }
+
+ .enter-mail{
+    width: 420px;
+    height: 42px;
+    padding-top:70px;
+    padding-left: 220px;
+    margin-bottom: 72px;
+ }
+
+ .email-name{
+    width: 320px;
+    height: 42px;
+    text-align: center;
+    background-color: #D9D9D9;   
+    border: 1px solid gray;
+ }
+ 
+.subscribe-btn{
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-weight: 500;
+    background-color: #FF5959;
+    margin-right: 200px;
+    padding: 14px 16px;   
+}
+   /* footer section */
+.appreciate{
+    height: 167px;
+    text-align: center;
+    margin-top: 120px;
+    background-color: #0B0D17;
+    padding-top: 80px;
+    color: white;
+}
+
+.appreciate h1{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Lobster', cursive;
+  color: #FF5959;
+}
