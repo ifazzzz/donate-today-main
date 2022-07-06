@@ -32,7 +32,7 @@ p{
     color: #fff;
     font-weight: 600;
     background-color: firebrick;    
-    padding: 16px 20px;
+    padding: 16px 26px;
     border-radius: 5px;
 }
    /* amount section */
@@ -51,8 +51,8 @@ p{
 }
 
 .select-one{
-    width: 135px;
-    height: 123px;
+    width: 200px;
+    height: 153px;
     box-sizing: border-box;
     margin:10px;
     padding-bottom: 10px;
@@ -89,14 +89,14 @@ p{
 }
  .amount-number{
     margin-bottom: 40px;
-    width:754px;
+    width: 1054px;
     border: none;
     border-bottom: 2px solid black;   
  }
 
  .text-box-2{
     text-align: center;
-    margin-top: 130px;
+    margin-top: 150px;
  }
     /* service section */
  .services{
@@ -108,7 +108,7 @@ p{
  }
  
  .service-items{
-    width: 360px;
+    width: 420px;
     height: 352px;
     margin:20px;
     padding:20px;
@@ -127,26 +127,26 @@ p{
  .service-item-education{
     background-color:  #f8f2d4;
  }
- /* contribution section */
- .contribute-section{
+ /* worldwide-info situation */
+ .flood-situation{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 170px;
 
  }
 
- .affected-people{
-    width: 456px;
+ .flood-effect{
+    width: 756px;
     height: 477px;
     border-radius: 5px;
  }
 
- .contribute-details{
+ .situation-details{
     margin: 20px;
  }
 
- .donation{
+ .sattelite-image{
    margin: 20px;   
  }
 
@@ -157,7 +157,7 @@ p{
  .wrapper{
     display: flex;
     align-items: center;   
-    width: 800px;
+    width: 900px;
     height: 180px;
     margin: 40px auto;
     background-color: #FFF4D6;
@@ -167,7 +167,7 @@ p{
     width: 420px;
     height: 42px;
     padding-top:70px;
-    padding-left: 220px;
+    padding-left: 240px;
     margin-bottom: 72px;
  }
 
@@ -185,7 +185,7 @@ p{
     color: white;
     font-weight: 500;
     background-color: #FF5959;
-    margin-right: 200px;
+    margin-right: 300px;
     padding: 14px 16px;   
 }
    /* footer section */
